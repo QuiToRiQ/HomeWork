@@ -23,7 +23,7 @@
 
     width:450px;
   }
-  p
+  span
   {
     margin:  1px;
     padding: 1px;
@@ -40,4 +40,7 @@
 
     background-size: auto;
     background-image: url(https://static.vecteezy.com/system/resources/previews/010/556/604/original/abstract-frashy-colorful-gradient-background-futuristic-papercut-wallpaper-back-to-school-theme-geometric-banner-background-vector.jpg);
+  }
+  nav{
+    margin: auto;
   }
