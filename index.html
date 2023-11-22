@@ -7,7 +7,18 @@
     <title>Шкільне д/з перша група</title>
 </head>
 <body>
-    <nav class="lastUpdate">
+    <nav id="UpdateList">
+        <button  onclick="onClickCloseTab()" style="border: unset; border-radius: 10px;">&times;</button>
+    <div style="text-align: center;">Update list</div>
+        <ol>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+        </ol>
+
+    </nav>
+    <nav onclick="onclickLastUpdate()" id="lastUpdate">
         <span>Last update: 22/11/23 17:21</span>
     </nav>
     <nav class="assignmentToday">
@@ -37,5 +48,6 @@
     <footer>
         <h6>(alpha) created by: Oleg Holoborodko</h6>  
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
